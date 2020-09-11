@@ -1,10 +1,5 @@
 from pydriller import RepositoryMining
 
-for commit in RepositoryMining('infrastructure').traverse_commits():
+for commit in RepositoryMining('../git').traverse_commits():
     print(commit.author.name)
-
-print("Added another new thing")
-
-print("Something")
-
-print("Add another other new thing")
+    print(commit.branches)
