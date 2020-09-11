@@ -4,3 +4,5 @@ for commit in RepositoryMining('infrastructure').traverse_commits():
     print(commit.author.name)
 
 print("Something")
+
+print("Added something new")
