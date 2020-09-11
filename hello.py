@@ -6,3 +6,5 @@ for commit in RepositoryMining('infrastructure').traverse_commits():
 print("Added another new thing")
 
 print("Something")
+
+print("Add another other new thing")
