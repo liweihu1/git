@@ -12,3 +12,5 @@ x = MyClass()
 value = input("Please enter a number \n")
 
 print(x.validateAnswer(value))
+
+print("Different file")
